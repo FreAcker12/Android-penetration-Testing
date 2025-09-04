@@ -14,16 +14,19 @@ Result: restarting adbd as root
 <b>2. List all devices</b>
 <pre>
 C:\Users\user>adb devices
-
 List of devices attached
 emulator-5554   device
 </pre>
+<b>3. Connect to your device (If multiple)</b>
+<pre>
+C:\Users\user>adb -s <Device Name> shell
+generic_x86_arm:/ #
 </pre>
-<b>2. Install your APK file</b>
+<b>4. Install your APK file</b>
 <pre>
 C:\Users\user>adb install file.apk
 </pre>
-<b>2. Install your APK file</b>
+<b>5. Install your APK file</b>
 <pre>
 C:\Users\user>adb install file.apk
 </pre>
