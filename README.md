@@ -21,7 +21,9 @@ emulator-5554   device
 <pre>
 C:\Users\user>adb -s *Device Name* shell
 generic_x86_arm:/ #
-or via IP address:
+</pre>
+<b>or via IP address:</b>
+<pre>
 adb connect IP_ADD:PORT
 </pre>
 <b>4. Install your APK file</b>
