@@ -34,7 +34,7 @@ C:\Users\user>adb install file.apk
 <pre>
 C:\Users\user>adb pull / push &lt;source&gt &lt;destination&gt;
 </pre>
-<b>6. Extract network and log details (can be opened via wireshark)</b>
+<b>6. Extract network and log details such as HCI (can be opened via wireshark)</b>
 <pre>
 C:\Users\user>adb bugreport &lt;file&gt.zip
 </pre>
