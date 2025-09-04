@@ -9,8 +9,8 @@
 1. Root your shell on the device automatically
 <br>
 <pre>
-adb shell
-root
+C:\Users\user>adb root
+restarting adbd as root
 </pre>
 1. Install APK on your emulator:
 <br>
