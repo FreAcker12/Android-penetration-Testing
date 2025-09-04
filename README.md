@@ -14,10 +14,8 @@ Result: restarting adbd as root
 <b>2. List all devices</b>
 <pre>
 C:\Users\user>adb devices
-</pre>
-<b>Result:</b>
-<pre>
-  List of devices attached
+
+List of devices attached
 emulator-5554   device
 </pre>
 </pre>
