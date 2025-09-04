@@ -6,6 +6,12 @@
 <h2>The ADB (Android Debug Bride)</h2>
 <b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
 <br><br>
+1. Root your shell on the device automatically
+<br>
+<pre>
+adb shell
+root
+</pre>
 1. Install APK on your emulator:
 <br>
-<pre>echo "Looks interactive!"</pre>
+<pre>adb install</pre>
