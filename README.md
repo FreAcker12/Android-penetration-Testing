@@ -9,7 +9,8 @@
 <b>1. Root your shell on the device automatically - This helps with port forward/reverse, files trasnfer etc.</b>
 <pre>
 C:\Users\user>adb root
-restarting adbd as root
+  
+Result: restarting adbd as root
 </pre>
 <b>2. List all devices</b>
 <pre>
