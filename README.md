@@ -6,8 +6,7 @@
 <h2>The ADB (Android Debug Bride)</h2>
 <b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
 <br><br>
-<b>1. Root your shell on the device automatically</b>
-<p>This helps with port forward/reverse, files trasnfer etc.</p>
+<b>1. Root your shell on the device automatically - This helps with port forward/reverse, files trasnfer etc.</b>
 <pre>
 C:\Users\user>adb root
 restarting adbd as root
