@@ -4,7 +4,9 @@
 <h4>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;•&nbsp;&nbsp;This repo does not include installations guidance.</h4>
 <hr>
 <h2>The ADB (Android Debug Bride)</h2>
+<br>
 <b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
+<br>
 <br>
 1. Install APK on your emulator:
 
