@@ -7,6 +7,5 @@
 <b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
 <br><br>
 1. Install APK on your emulator:
-```python
-adb install file.apk
-```
+```bash
+$ echo "Looks interactive!"
