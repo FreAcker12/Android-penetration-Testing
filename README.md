@@ -11,6 +11,14 @@
 C:\Users\user>adb root
 restarting adbd as root
 </pre>
+<b>2. List all devices</b>
+<pre>
+C:\Users\user>adb devices
+</pre>
+<b>2. Install your APK file</b>
+<pre>
+C:\Users\user>adb install file.apk
+</pre>
 <b>2. Install your APK file</b>
 <pre>
 C:\Users\user>adb install file.apk
