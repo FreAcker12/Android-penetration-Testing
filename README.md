@@ -9,14 +9,17 @@
 <b>1. Root your shell on the device automatically - This helps with port forward/reverse, files trasnfer etc.</b>
 <pre>
 C:\Users\user>adb root
-  
 Result: restarting adbd as root
 </pre>
 <b>2. List all devices</b>
 <pre>
 C:\Users\user>adb devices
-List of devices attached
+</pre>
+<b>Result:</b>
+<pre>
+  List of devices attached
 emulator-5554   device
+</pre>
 </pre>
 <b>2. Install your APK file</b>
 <pre>
