@@ -7,5 +7,5 @@
 <b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
 <br><br>
 1. Install APK on your emulator:
-```bash
-$ echo "Looks interactive!"
+<br>
+<pre>echo "Looks interactive!"</pre>
