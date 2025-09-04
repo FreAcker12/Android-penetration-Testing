@@ -14,6 +14,8 @@ restarting adbd as root
 <b>2. List all devices</b>
 <pre>
 C:\Users\user>adb devices
+List of devices attached
+emulator-5554   device
 </pre>
 <b>2. Install your APK file</b>
 <pre>
