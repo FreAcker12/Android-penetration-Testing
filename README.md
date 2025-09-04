@@ -8,7 +8,6 @@
 <br><br>
 <b>1. Root your shell on the device automatically</b>
 <p>This helps with port forward/reverse, files trasnfer etc.</p>
-<br>
 <pre>
 C:\Users\user>adb root
 restarting adbd as root
