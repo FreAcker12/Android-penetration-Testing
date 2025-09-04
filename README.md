@@ -2,8 +2,6 @@
 <h2>Quick Alert 🚨</h2>
 <h4>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;•&nbsp;&nbsp;This repo meant to get you familiar very quickly with Android penetration testing.</h4>
 <h4>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;•&nbsp;&nbsp;This repo does not include installations guidance.</h4>
-
-
-
+<hr>
 <h2>The ADB (Android Debug Bride)</h2>
 
