@@ -4,8 +4,7 @@
 <h4>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;•&nbsp;&nbsp;This repo does not include installations guidance.</h4>
 <hr>
 <h2>The ADB (Android Debug Bride)</h2>
-<b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
-<b>if you're using USB connected device, please install scrcpy to mirror your screen</b>
+<b>P.S. Please add youe adb to the user/system environment path so you can access it easier, if you're using USB connected device, please install scrcpy to mirror your screen</b>
 <br><br>
 <b>1. Root your shell on the device automatically - This helps with port forward/reverse, files trasnfer etc.</b>
 <pre>
