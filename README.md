@@ -19,7 +19,7 @@ emulator-5554   device
 </pre>
 <b>3. Connect to your device (If multiple)</b>
 <pre>
-C:\Users\user>adb -s **Device Name** shell
+C:\Users\user>adb -s \<Device Name\> shell
 generic_x86_arm:/ #
 </pre>
 <b>4. Install your APK file</b>
