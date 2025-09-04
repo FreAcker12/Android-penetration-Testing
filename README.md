@@ -11,6 +11,7 @@
 C:\Users\user>adb root
 restarting adbd as root
 </pre>
-1. Install APK on your emulator:
-<br>
-<pre>adb install</pre>
+<b>2. Install your APK file</b>
+<pre>
+C:\Users\user>adb install file.apk
+</pre>
