@@ -19,18 +19,26 @@ emulator-5554   device
 </pre>
 <b>3. Connect to your device (If multiple)</b>
 <pre>
-C:\Users\user>adb -s *Device Name* shell
+C:\Users\user>adb -s &lt;Device Name&gt; shell
 generic_x86_arm:/ #
 </pre>
-<b>or via IP address:</b>
+<b>or via IP address</b>
 <pre>
-adb connect IP_ADD:PORT
+adb connect &lt;IP_ADD&gt;:&lt;PORT&gt;
 </pre>
 <b>4. Install your APK file</b>
 <pre>
 C:\Users\user>adb install file.apk
 </pre>
-<b>5. Install your APK file</b>
+<b>5. Upload (push) / Download (pull) files</b>
 <pre>
-C:\Users\user>adb install file.apk
+C:\Users\user>adb pull / push &lt;source&gt &lt;destination&gt;
+</pre>
+<b>6. Extract network and log details (can be opened via wireshark)</b>
+<pre>
+C:\Users\user>adb bugreport &lt;file&gt.zip
+</pre>
+<b>7. Get logs</b>
+<pre>
+C:\Users\user>adb logcat
 </pre>
