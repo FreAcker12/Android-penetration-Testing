@@ -4,4 +4,4 @@
 <h4>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;•&nbsp;&nbsp;This repo does not include installations guidance.</h4>
 <hr>
 <h2>The ADB (Android Debug Bride)</h2>
-<p style="font-weight:bold;">P.S. Please add youe adb to the user/system environment path so you can access it easier</p>
+<b>P.S. Please add youe adb to the user/system environment path so you can access it easier</b>
