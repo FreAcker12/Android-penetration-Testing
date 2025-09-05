@@ -1,0 +1,51 @@
+# Android Reverse Engineering Cheatsheet
+
+A quick reference for common ADB and APKTool commands used in Android penetration testing and reverse engineering.
+
+---
+
+## 🔌 ADB Commands
+
+List Installed Packages:
+adb shell pm list packages
+
+Find APK Path of a Package:
+adb shell pm path <package.name>
+
+Pull APK from Device:
+adb pull <apk_path> .
+
+---
+
+## 📦 APKTool Commands
+
+Decompile APK:
+apktool d file.apk
+
+Rebuild APK:
+apktool b <app_folder>
+
+---
+
+## ⚡ Typical Workflow
+
+1. Find installed apps:
+   adb shell pm list packages
+
+2. Get APK path for target app:
+   adb shell pm path com.example.app
+
+3. Pull the APK from device:
+   adb pull /data/app/com.example.app-1/base.apk
+
+4. Decompile the APK:
+   apktool d base.apk
+
+5. Modify / Analyze
+
+6. Rebuild:
+   apktool b base
+
+---
+
+✍️ Pro tip: After rebuilding, you’ll often need to re-sign the APK with your own debug or release keystore before reinstalling.
