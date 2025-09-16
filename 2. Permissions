@@ -1,0 +1,81 @@
+# 📖 Android Permissions & Package Management Cheatsheet
+
+This document covers common `pm` (package manager) commands and useful file paths for inspecting apps, permissions, and user IDs on Android devices (via **ADB** or a shell session).
+
+---
+
+## 🔹 Common `pm` Commands
+
+### List all installed packages
+```bash
+pm list packages
+```
+
+### List packages **with user IDs**
+```bash
+pm list packages -U
+```
+
+### List packages for a specific user
+```bash
+pm list packages --user <user_id>
+```
+
+### Get path to an APK
+```bash
+pm path <package_name>
+```
+
+### Get detailed package info
+```bash
+pm dump <package_name>
+```
+
+### Show current shell user ID
+```bash
+id
+```
+
+---
+
+## 🔹 Exploring App Data
+
+Navigate into app data directories:
+```bash
+cd /data/data/
+ls -la
+```
+
+This shows all installed apps with **usernames (aliases)** that own each app’s data directory.
+
+---
+
+## 🔹 Permissions & Config Files
+
+### Package / Permission Mapping
+```bash
+/data/system/packages.xml
+```
+- Contains package information, UIDs, and granted permissions.
+
+### Platform Permissions
+```bash
+/system/etc/permissions/platform.xml
+```
+- Defines core Android permissions and system-level grants.
+
+### Other XMLs
+- `/system/etc/permissions/*.xml` → Defines feature/permission groups.
+- `/system/etc/security/` → May hold policy/configuration files.
+
+---
+
+## 🔹 Useful Notes
+
+- Reading `/data/data/` or `/data/system/packages.xml` usually requires **root** access.
+- `pm list packages -U` is useful to correlate apps with **UIDs**.
+- `platform.xml` defines which permissions are automatically granted to apps signed with the platform key.
+- Cross-referencing:
+  1. Use `pm list packages -U` to get package + UID.  
+  2. Check `/data/system/packages.xml` to confirm details.  
+  3. Inspect `/system/etc/permissions/platform.xml` for default grants.  
